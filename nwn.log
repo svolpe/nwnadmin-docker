@@ -1,0 +1,338 @@
+    PID TTY      STAT   TIME COMMAND
+      1 ?        Ss     0:06 /sbin/init
+      2 ?        S      0:00 [kthreadd]
+      3 ?        I<     0:00 [rcu_gp]
+      4 ?        I<     0:00 [rcu_par_gp]
+      6 ?        I<     0:00 [kworker/0:0H-kblockd]
+      8 ?        I<     0:00 [mm_percpu_wq]
+      9 ?        S      0:02 [ksoftirqd/0]
+     10 ?        I      0:44 [rcu_sched]
+     11 ?        I      0:00 [rcu_bh]
+     12 ?        S      0:05 [migration/0]
+     13 ?        S      0:00 [idle_inject/0]
+     15 ?        S      0:00 [cpuhp/0]
+     16 ?        S      0:00 [cpuhp/1]
+     17 ?        S      0:00 [idle_inject/1]
+     18 ?        S      0:04 [migration/1]
+     19 ?        S      0:02 [ksoftirqd/1]
+     21 ?        I<     0:00 [kworker/1:0H-kblockd]
+     22 ?        S      0:00 [cpuhp/2]
+     23 ?        S      0:00 [idle_inject/2]
+     24 ?        S      0:08 [migration/2]
+     25 ?        S      0:02 [ksoftirqd/2]
+     27 ?        I<     0:00 [kworker/2:0H-kblockd]
+     28 ?        S      0:00 [cpuhp/3]
+     29 ?        S      0:00 [idle_inject/3]
+     30 ?        S      0:06 [migration/3]
+     31 ?        S      0:02 [ksoftirqd/3]
+     33 ?        I<     0:00 [kworker/3:0H-kblockd]
+     34 ?        S      0:00 [cpuhp/4]
+     35 ?        S      0:00 [idle_inject/4]
+     36 ?        S      0:08 [migration/4]
+     37 ?        S      0:01 [ksoftirqd/4]
+     39 ?        I<     0:00 [kworker/4:0H-kblockd]
+     40 ?        S      0:00 [cpuhp/5]
+     41 ?        S      0:00 [idle_inject/5]
+     42 ?        S      0:03 [migration/5]
+     43 ?        S      0:02 [ksoftirqd/5]
+     45 ?        I<     0:00 [kworker/5:0H-kblockd]
+     46 ?        S      0:00 [cpuhp/6]
+     47 ?        S      0:00 [idle_inject/6]
+     48 ?        S      0:12 [migration/6]
+     49 ?        S      0:02 [ksoftirqd/6]
+     51 ?        I<     0:00 [kworker/6:0H-kblockd]
+     52 ?        S      0:00 [cpuhp/7]
+     53 ?        S      0:00 [idle_inject/7]
+     54 ?        S      0:03 [migration/7]
+     55 ?        S      0:02 [ksoftirqd/7]
+     57 ?        I<     0:00 [kworker/7:0H-kblockd]
+     58 ?        S      0:00 [kdevtmpfs]
+     59 ?        I<     0:00 [netns]
+     60 ?        S      0:00 [kauditd]
+     62 ?        S      0:00 [khungtaskd]
+     63 ?        S      0:00 [oom_reaper]
+     64 ?        I<     0:00 [writeback]
+     65 ?        S      0:01 [kcompactd0]
+     66 ?        SN     0:00 [ksmd]
+     67 ?        SN     0:00 [khugepaged]
+     68 ?        I<     0:00 [crypto]
+     69 ?        I<     0:00 [kintegrityd]
+     70 ?        I<     0:00 [kblockd]
+     74 ?        I<     0:00 [edac-poller]
+     75 ?        I<     0:00 [devfreq_wq]
+     76 ?        S      0:00 [watchdogd]
+     78 ?        S      0:16 [kswapd0]
+    122 ?        I<     0:00 [kthrotld]
+    123 ?        S      0:00 [irq/125-pciehp]
+    124 ?        S      0:00 [irq/126-pciehp]
+    125 ?        S      0:00 [irq/127-pciehp]
+    129 ?        I<     0:00 [acpi_thermal_pm]
+    130 ?        I<     0:00 [nvme-wq]
+    131 ?        I<     0:00 [nvme-reset-wq]
+    132 ?        I<     0:00 [nvme-delete-wq]
+    134 ?        I<     0:00 [ipv6_addrconf]
+    144 ?        I<     0:00 [kstrp]
+    157 ?        I<     0:00 [charger_manager]
+    196 ?        S      0:15 [jbd2/nvme0n1p5-]
+    197 ?        I<     0:00 [ext4-rsv-conver]
+    198 ?        I<     0:00 [kworker/4:1H-kblockd]
+    207 ?        I<     0:00 [kworker/1:1H-kblockd]
+    232 ?        Ss     0:05 /usr/lib/systemd/systemd-journald
+    241 ?        I<     0:00 [kworker/0:1H-kblockd]
+    242 ?        I<     0:00 [kworker/6:1H-kblockd]
+    243 ?        I<     0:00 [kworker/2:1H-kblockd]
+    245 ?        I<     0:00 [usbip_event]
+    246 ?        Ss     0:03 /usr/lib/systemd/systemd-udevd
+    249 ?        I<     0:00 [kworker/5:1H-kblockd]
+    256 ?        Ss     0:00 /usr/bin/lvmetad -f
+    286 ?        I<     0:00 [ktpacpid]
+    288 ?        S      0:00 [irq/139-mei_me]
+    308 ?        I<     0:00 [cfg80211]
+    327 ?        S      8:33 [irq/157-iwlwifi]
+    378 ?        I<     0:00 [kworker/7:1H-kblockd]
+    380 ?        S      2:18 [i915/signal:0]
+    381 ?        S      0:00 [i915/signal:1]
+    382 ?        S      0:00 [i915/signal:2]
+    383 ?        S      0:00 [i915/signal:6]
+    420 ?        S      0:00 [cec-DP-2]
+    569 ?        Ss     0:39 avahi-daemon: running [shane-pc.local]
+    570 ?        Ss     0:00 /usr/bin/crond -n
+    573 ?        Ss     1:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    581 ?        Ssl    0:49 /usr/bin/NetworkManager --no-daemon
+    585 ?        Ssl    0:13 /usr/lib/polkit-1/polkitd --no-debug
+    593 ?        Ss     0:08 /usr/lib/systemd/systemd-logind
+    597 ?        S      0:00 avahi-daemon: chroot helper
+    635 ?        Ss     0:00 sshd: /usr/bin/sshd -D [listener] 0 of 10-100 startups
+    642 ?        SLsl   0:00 /usr/bin/lightdm
+    649 ?        Ssl    0:00 /usr/bin/ModemManager
+    675 ?        S      5:30 [irq/159-rmi4_sm]
+    680 ?        Ssl    0:03 /usr/lib/accounts-daemon
+    723 tty7     Ssl+  95:36 /usr/lib/Xorg :0 -seat seat0 -auth /run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+    878 ?        S      0:00 [scsi_eh_0]
+    879 ?        I<     0:00 [scsi_tmf_0]
+    880 ?        S      0:15 [usb-storage]
+    881 ?        I<     0:00 [uas]
+    886 ?        Ss     0:02 /usr/lib/bluetooth/bluetoothd
+    889 ?        Ss     0:01 /usr/bin/wpa_supplicant -u -s -O /run/wpa_supplicant
+    923 ?        Sl     0:00 lightdm --session-child 12 15
+    928 ?        Ss     0:04 /usr/lib/systemd/systemd --user
+    929 ?        S      0:00 (sd-pam)
+    940 ?        SLl    0:01 /usr/bin/gnome-keyring-daemon --daemonize --login
+    943 ?        Ssl    0:03 xfce4-session
+    951 ?        Ss     1:33 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    967 ?        Ssl    0:00 /usr/lib/gvfsd
+    972 ?        Sl     0:05 /usr/lib/gvfsd-fuse /run/user/1000/gvfs -f
+    981 ?        Ssl    0:00 /usr/lib/at-spi-bus-launcher
+    987 ?        S      0:07 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+    989 ?        Sl     0:02 /usr/lib/xfce4/xfconf/xfconfd
+    995 ?        Sl     0:22 /usr/lib/at-spi2-registryd --use-gnome-session
+   1000 ?        Ss     0:00 /usr/bin/ssh-agent -s
+   1003 ?        SLs    0:08 /usr/bin/gpg-agent --supervised
+   1005 ?        Sl   112:31 xfwm4
+   1014 ?        S<sl 106:33 /usr/bin/pulseaudio --daemonize=no
+   1016 ?        Sl     5:52 xfce4-panel
+   1021 ?        SNsl   0:02 /usr/lib/rtkit-daemon
+   1027 ?        Sl     0:00 /usr/lib/pulse/gsettings-helper
+   1033 ?        S<     0:00 [krfcommd]
+   1034 ?        Sl     1:33 Thunar --daemon
+   1039 ?        Sl     0:46 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libwhiskermenu.so 8 12582919 whiskermenu Whisker Menu Show a menu to easily access installed applications
+   1040 ?        Sl     0:05 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libsystray.so 6 12582921 systray Notification Area Area where notification icons appear
+   1041 ?        Sl     5:27 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libpulseaudio-plugin.so 9 12582922 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+   1042 ?        Sl     0:02 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libactions.so 2 12582923 actions Action Buttons Log out, lock or other system actions
+   1043 ?        Sl     0:03 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libscreenshooterplugin.so 10 12582924 screenshooter Screenshot Take screenshots of the entire screen, of the active window or of a region
+   1048 ?        Sl     1:04 xfdesktop
+   1058 ?        Ssl    0:06 /usr/lib/xfce4/notifyd/xfce4-notifyd
+   1066 ?        Sl     0:01 xfce4-notes
+   1071 ?        S      0:54 python3 /usr/bin/mpDris2
+   1076 ?        SLl    4:03 /usr/share/skypeforlinux/skypeforlinux --executed-from=/home/shane --pid=1064
+   1078 ?        SNl    3:24 baloo_file
+   1082 ?        Sl     0:57 msm_notifier
+   1084 ?        Sl     0:01 /usr/bin/python /usr/bin/blueman-applet
+   1085 ?        Sl     0:08 light-locker
+   1086 ?        Sl     0:30 nm-applet
+   1091 ?        S      0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+   1093 ?        Sl     0:00 /usr/lib/geoclue-2.0/demos/agent
+   1096 ?        Ssl    0:30 xfce4-power-manager
+   1098 ?        Sl     0:00 /usr/lib/dconf-service
+   1110 ?        Sl     0:02 pamac-tray
+   1112 ?        Sl     0:01 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+   1132 ?        S      0:00 /usr/share/skypeforlinux/skypeforlinux --type=zygote
+   1135 ?        Ssl    0:13 /usr/lib/upowerd
+   1137 ?        S      0:00 /usr/share/skypeforlinux/skypeforlinux --type=zygote
+   1142 ?        Ssl    0:06 /usr/lib/udisks2/udisksd
+   1146 ?        Ssl    0:03 /usr/lib/gvfs-udisks2-volume-monitor
+   1167 ?        Ssl    0:00 /usr/lib/gvfs-mtp-volume-monitor
+   1174 ?        Ssl    0:00 /usr/lib/gvfs-gphoto2-volume-monitor
+   1182 ?        Ssl    0:07 /usr/lib/gvfs-afc-volume-monitor
+   1191 ?        Sl     0:00 /usr/lib/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+   1196 ?        Ssl    0:00 /usr/lib/gvfsd-metadata
+   1208 ?        Sl     0:02 /usr/bin/python /usr/bin/blueman-tray
+   1222 ?        Sl     0:06 /usr/share/skypeforlinux/skypeforlinux --type=gpu-process --field-trial-handle=1422957079108192243,6848726654380473506,131072 --disable-features=PictureInPicture,SpareRendererForSitePerProcess --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=514660476180995088
+   1230 ?        Sl     0:01 /usr/share/skypeforlinux/skypeforlinux --type=utility --field-trial-handle=1422957079108192243,6848726654380473506,131072 --disable-features=PictureInPicture,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --service-request-channel-token=7472854063793516819 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+   1250 ?        Ss     0:00 /usr/lib/bluetooth/obexd
+   1260 ?        Sl     0:46 /usr/share/skypeforlinux/skypeforlinux --type=renderer --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --ms-disable-indexeddb-transaction-timeout --field-trial-handle=1422957079108192243,6848726654380473506,131072 --disable-features=PictureInPicture,SpareRendererForSitePerProcess --lang=en-US --app-path=/usr/share/skypeforlinux/resources/app.asar --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/usr/share/skypeforlinux/resources/app.asar/Preload.js --background-color=#fff --node-integration-in-subframes --enable-spellcheck --electron-shared-settings=eyJjci5jb21wYW55IjoiRWxlY3Ryb24iLCJjci5kdW1wcyI6IiIsImNyLmVuYWJsZWQiOmZhbHNlLCJjci5wcm9kdWN0IjoiRWxlY3Ryb24iLCJjci5zZXNzaW9uIjoiIiwiY3IudXJsIjoiIiwiY3IudmVyc2lvbiI6IiJ9 --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=1227823491814976165 --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101 --skype-process-type=Main --skype-window-id=__MAIN_ROOT_VIEW_ID__
+   1323 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+   1435 ?        Sl     8:01 /usr/bin/xfce4-terminal
+   1440 pts/0    Ss     0:00 bash
+   1462 ?        I<     0:00 [kworker/3:1H-kblockd]
+   1470 ?        Ss     0:16 /usr/bin/nmbd --foreground --no-process-group
+   1471 ?        Ss     0:00 /usr/bin/cupsd -l
+   1472 ?        Ssl    0:00 /usr/lib/colord
+   1476 ?        Ss     0:05 /usr/bin/smbd --foreground --no-process-group
+   1478 ?        S      0:00 /usr/bin/smbd --foreground --no-process-group
+   1479 ?        S      0:00 /usr/bin/smbd --foreground --no-process-group
+   1481 ?        S      0:00 /usr/bin/smbd --foreground --no-process-group
+   2104 ?        Ssl    0:22 xfsettingsd --replace
+   2401 ?        S      0:01 /usr/bin/smbd --foreground --no-process-group
+  34131 ?        Sl     0:00 /usr/lib/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+  34145 ?        Sl     0:04 /usr/lib/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/3
+  37040 pts/1    Ss+    0:01 bash
+ 821948 ?        S      0:00 /bin/sh /usr/bin/dbeaver
+ 821954 ?        Sl     0:00 /usr/lib/dbeaver/dbeaver
+ 822153 ?        Sl    71:17 /usr/bin/java -XX:+IgnoreUnrecognizedVMOptions -Xms64m -Xmx1024m -jar /usr/lib/dbeaver//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar -os linux -ws gtk -arch x86_64 -showsplash -launcher /usr/lib/dbeaver/dbeaver -name Dbeaver --launcher.library /usr/lib/dbeaver//plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.1100.v20190907-0426/eclipse_1801.so -startup /usr/lib/dbeaver//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar --launcher.overrideVmargs -exitdata 122001a -vm /usr/bin/java -vmargs -XX:+IgnoreUnrecognizedVMOptions -Xms64m -Xmx1024m -jar /usr/lib/dbeaver//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+ 830882 ?        Sl     0:00 /usr/lib/gvfsd-http --spawner :1.5 /org/gtk/gvfs/exec_spaw/4
+2967661 ?        SLl   59:27 /usr/lib/chromium/chromium
+2967664 ?        S      0:00 /usr/lib/chromium/chromium --type=zygote --no-zygote-sandbox
+2967665 ?        S      0:00 /usr/lib/chromium/chromium --type=zygote
+2967667 ?        S      0:05 /usr/lib/chromium/chromium --type=zygote
+2967687 ?        Sl    34:45 /usr/lib/chromium/chromium --type=gpu-process --field-trial-handle=17149969810971708281,12768316327340235337,131072 --gpu-preferences=MAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --shared-files
+2967690 ?        SLl   21:24 /usr/lib/chromium/chromium --type=utility --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --service-sandbox-type=network --disable-webrtc-apm-in-audio-service --shared-files
+2967790 ?        Sl     2:39 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files
+2967804 ?        Sl     3:44 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files
+2967822 ?        Sl     3:02 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files
+2967946 ?        Sl     6:44 /usr/lib/chromium/chromium --type=utility --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --service-sandbox-type=audio --disable-webrtc-apm-in-audio-service --shared-files
+2968506 ?        Sl    37:30 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=66 --no-v8-untrusted-code-mitigations --shared-files
+2968520 ?        Sl     0:31 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=67 --no-v8-untrusted-code-mitigations --shared-files
+2978132 ?        Sl     0:00 /usr/lib/gvfsd-smb-browse --spawner :1.5 /org/gtk/gvfs/exec_spaw/6
+2978205 ?        SLl    0:01 /usr/lib/gvfsd-afp-browse --spawner :1.5 /org/gtk/gvfs/exec_spaw/7
+2978239 ?        SLl    1:14 /usr/lib/gvfsd-afp --spawner :1.5 /org/gtk/gvfs/exec_spaw/8
+2982470 ?        Ssl    7:58 /usr/bin/dockerd -H fd://
+2982481 ?        Ssl   17:35 containerd --config /var/run/docker/containerd/containerd.toml --log-level info
+2982807 pts/2    Ss     0:00 bash
+2982912 pts/2    S      0:00 su - shane
+2982915 pts/2    S      0:00 -bash
+3057572 ?        Sl     0:09 mousepad
+3093477 pts/4    Ss     0:00 bash
+3155333 pts/4    Sl+    2:44 xfreerdp /u:shane /p:********** /v:10.200.0.146 /f
+3161022 ?        Sl     0:14 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7690 --no-v8-untrusted-code-mitigations --shared-files
+3164102 ?        Sl     0:19 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7752 --no-v8-untrusted-code-mitigations --shared-files
+3164154 ?        Sl    11:53 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7755 --no-v8-untrusted-code-mitigations --shared-files
+3164177 ?        Sl     0:07 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7756 --no-v8-untrusted-code-mitigations --shared-files
+3164198 ?        Sl     0:06 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7757 --no-v8-untrusted-code-mitigations --shared-files
+3164286 ?        Sl     0:08 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7759 --no-v8-untrusted-code-mitigations --shared-files
+3164378 ?        Sl     0:07 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7767 --no-v8-untrusted-code-mitigations --shared-files
+3165232 ?        Sl    17:33 /usr/lib/firefox/firefox https://www.picotech.com/oscilloscope/3000/usb3-oscilloscope-logic-analyzer
+3165297 ?        Sl     7:28 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 223943 -parentBuildID 20200603085854 -appdir /usr/lib/firefox/browser 3165232 true tab
+3165354 ?        Sl     0:46 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6407 -prefMapSize 223943 -parentBuildID 20200603085854 -appdir /usr/lib/firefox/browser 3165232 true tab
+3165398 ?        Sl     0:20 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 7246 -prefMapSize 223943 -parentBuildID 20200603085854 -appdir /usr/lib/firefox/browser 3165232 true tab
+3166711 ?        Sl     1:12 /usr/lib/slack/slack -s
+3166714 ?        S      0:00 /usr/lib/slack/slack --type=zygote
+3166716 ?        S      0:00 /usr/lib/slack/slack --type=zygote
+3166742 ?        Sl    12:53 /usr/lib/slack/slack --type=gpu-process --field-trial-handle=4243823475139197834,5122928588130487975,131072 --disable-features=SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=8058322473936333600
+3166755 ?        Sl     0:22 /proc/self/exe --type=utility --field-trial-handle=4243823475139197834,5122928588130487975,131072 --disable-features=SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns --lang=en-US --service-sandbox-type=network --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --bypasscsp-schemes=slack-resources,slack-sounds,slack-webapp-dev --cors-schemes=slack-resources,slack-sounds,slack-webapp-dev --fetch-schemes=slack-resources,slack-sounds,slack-webapp-dev --service-worker-schemes=slack-resources,slack-sounds,slack-webapp-dev --service-request-channel-token=2798373673465094325 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+3166775 ?        Sl    23:01 /usr/lib/slack/slack --type=renderer --autoplay-policy=no-user-gesture-required --force-color-profile=srgb --field-trial-handle=4243823475139197834,5122928588130487975,131072 --disable-features=SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns --lang=en-US --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --bypasscsp-schemes=slack-resources,slack-sounds,slack-webapp-dev --cors-schemes= esources,slack-sounds,slack-webapp-dev --fetch-schemes=slack-resources,slack-sounds,slack-webapp-dev --service-worker-schemes=slack-resources,slack-sounds,slack-webapp-dev --app-path=/usr/lib/slack/resources/app.asar --no-sandbox --no-zygote --native-window-open --preload=/usr/lib/slack/resources/app.asar/dist/preload.bundle.js --context-isolation --background-color=#FFFFFF --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=12238043232319395634 --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101 {"preloadEnvironment":{"resourcePath":"/usr/lib/slack/resources/app.asar","appVersion":"4.4.0","linux":{"os":"Manjaro Linux","name":"Manjaro Linux ","release":"","codename":"","desktopEnvironment":"XFCE"},"sessionId":"ZWU5YjM4M2MtYzJjNy01MDI5LTljZTUtYTE1ZDM4NTU5NjVjXzE1OTI1NzcwNzQ0NzA=","uuid":"ee9b383c-c2c7-5029-9ce5-a15d3855965c","releaseChannel":"prod","teamId":"app","windowType":"main"},"perfTimer":{"mainPid":3166711,"BOOT":[239357,927556842],"numTeamsAtLaunch":1,"SHELL":[239358,142156455],"APP_READY":[239358,150724093],"APP_CREATED":[239358,249599109],"MAIN_WINDOW_CREATING":[239358,284589081]},"identifier":"slack_preload_metadata_arguments"}
+3166972 ?        Sl     0:00 /usr/bin/zoom zoommtg://zoom.us/join?action=join&confno=3797754522&pwd=NlVRdWVDMUZvSVA0aXBNdlpVaEhUZz09&zc=0&mcv=0.92.11227.0929&confid=dXNzPWhXU0p1RDQwc0JrUUdkT2N0eDZDQnZON1JQYUJLYWl2MHlRYTVQSUl5MUc4OWdTYTVrSG1YaGJ4eDNKU2t6Uk9rZyUzRCUzRCZ0aWQ9MDUyNmUzYTU2ZTU0NGE0MmEwNmYxMGY3NTU1MmJhNzUmYXBwPWNocm9tZQ%3D%3D&browser=chrome&t=1592577206129
+3166978 ?        S      0:00 sh -c export SSB_HOME=/home/shane/.zoom; export QSG_INFO=1; export LD_LIBRARY_PATH=/opt/zoom; export BREAKPAD_CLIENT_FD=3; /opt/zoom/zoom "zoommtg://zoom.us/join?action=join&confno=3797754522&pwd=NlVRdWVDMUZvSVA0aXBNdlpVaEhUZz09&zc=0&mcv=0.92.11227.0929&confid=dXNzPWhXU0p1RDQwc0JrUUdkT2N0eDZDQnZON1JQYUJLYWl2MHlRYTVQSUl5MUc4OWdTYTVrSG1YaGJ4eDNKU2t6Uk9rZyUzRCUzRCZ0aWQ9MDUyNmUzYTU2ZTU0NGE0MmEwNmYxMGY3NTU1MmJhNzUmYXBwPWNocm9tZQ%3D%3D&browser=chrome&t=1592577206129"
+3166979 ?        SLl  134:58 /opt/zoom/zoom zoommtg://zoom.us/join?action=join&confno=3797754522&pwd=NlVRdWVDMUZvSVA0aXBNdlpVaEhUZz09&zc=0&mcv=0.92.11227.0929&confid=dXNzPWhXU0p1RDQwc0JrUUdkT2N0eDZDQnZON1JQYUJLYWl2MHlRYTVQSUl5MUc4OWdTYTVrSG1YaGJ4eDNKU2t6Uk9rZyUzRCUzRCZ0aWQ9MDUyNmUzYTU2ZTU0NGE0MmEwNmYxMGY3NTU1MmJhNzUmYXBwPWNocm9tZQ%3D%3D&browser=chrome&t=1592577206129
+3169271 ?        Sl     0:00 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7865 --no-v8-untrusted-code-mitigations --shared-files
+3170174 pts/0    Sl+    1:38 xfreerdp /d:SOFTAID /u:shanev /p:******** /v:10.200.0.131 /f /clipboard /sound /mic:sys:alsa,format:1,rate:44100 /multimon /monitors:1,2
+3170694 ?        Sl     0:09 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7885 --no-v8-untrusted-code-mitigations --shared-files
+3170746 ?        Sl     0:00 /usr/lib/chromium/chromium --type=utility --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --service-sandbox-type=utility --disable-webrtc-apm-in-audio-service --shared-files
+3172321 ?        Sl     1:45 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7907 --no-v8-untrusted-code-mitigations --shared-files
+3174567 ?        Sl    14:24 /usr/lib/firefox/firefox -contentproc -childID 20 -isForBrowser -prefsLen 10584 -prefMapSize 223943 -parentBuildID 20200603085854 -appdir /usr/lib/firefox/browser 3165232 true tab
+3175409 ?        I      0:18 [kworker/5:1-events]
+3176260 ?        Sl     0:23 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7947 --no-v8-untrusted-code-mitigations --shared-files
+3179591 pts/5    Ss+    0:00 bash
+3179823 ?        Sl     0:18 k3b /home/shane/Downloads/beamdogClient-2.1.11-x86_64 (1).AppImage
+3179985 ?        Ss     0:00 kdeinit5: Running...
+3179986 ?        Sl     0:00 /usr/lib/kf5/klauncher --fd=8
+3180064 ?        Sl     0:15 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7985 --no-v8-untrusted-code-mitigations --shared-files
+3180082 ?        Sl     0:02 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7986 --no-v8-untrusted-code-mitigations --shared-files
+3180095 ?        Sl     0:12 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7987 --no-v8-untrusted-code-mitigations --shared-files
+3180314 ?        Sl     0:01 AppImageLauncherSettings
+3180398 ?        Sl     4:50 /usr/lib/firefox/firefox -contentproc -childID 28 -isForBrowser -prefsLen 10643 -prefMapSize 223943 -parentBuildID 20200603085854 -appdir /usr/lib/firefox/browser 3165232 true tab
+3180467 ?        Ssl    0:04 /usr/bin/appimagelauncherd
+3180492 ?        Ssl    0:00 /usr/bin/appimagelauncherfs
+3180854 ?        S      0:00 bash /home/shane/.local/share/Steam/steam.sh
+3181018 ?        Sl     2:29 /home/shane/.local/share/Steam/ubuntu12_32/steam
+3181033 ?        Ss     0:00 /home/shane/.local/share/Steam/ubuntu12_32/steam
+3181034 ?        S      0:00 /bin/bash /home/shane/.local/share/Steam/ubuntu12_64/steamwebhelper.sh -lang=en_US -cachedir=/home/shane/.local/share/Steam/config/htmlcache -steampid=3181018 -buildid=1591251555 -steamid=0 -steamuniverse=Public -clientui=/home/shane/.local/share/Steam/clientui --enable-blink-features=ResizeObserver,Worklet,AudioWorklet --enable-media-stream --enable-smooth-scrolling --password-store=basic --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt
+3181037 ?        Sl     0:08 ./steamwebhelper -lang=en_US -cachedir=/home/shane/.local/share/Steam/config/htmlcache -steampid=3181018 -buildid=1591251555 -steamid=0 -steamuniverse=Public -clientui=/home/shane/.local/share/Steam/clientui --enable-blink-features=ResizeObserver,Worklet,AudioWorklet --enable-media-stream --enable-smooth-scrolling --password-store=basic --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt
+3181047 ?        S      0:00 /home/shane/.local/share/Steam/ubuntu12_64/steamwebhelper --type=zygote --no-sandbox --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --lang=en_US.UTF-8
+3181061 ?        Sl     0:28 /home/shane/.local/share/Steam/ubuntu12_64/steamwebhelper --type=gpu-process --field-trial-handle=10042820946640296230,13787884745856764367,131072 --disable-features=MimeHandlerViewInCrossProcessFrame --no-sandbox --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --lang=en_US.UTF-8 --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --service-request-channel-token=3430174508425612658
+3181074 ?        Sl     0:00 /home/shane/.local/share/Steam/ubuntu12_64/steamwebhelper --type=utility --field-trial-handle=10042820946640296230,13787884745856764367,131072 --disable-features=MimeHandlerViewInCrossProcessFrame --lang=en-US --service-sandbox-type=network --no-sandbox --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --lang=en_US.UTF-8 --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --service-request-channel-token=8719975540313280110 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+3181167 ?        Sl     0:00 /home/shane/.local/share/Steam/ubuntu12_64/steamwebhelper --type=renderer --no-sandbox --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --field-trial-handle=10042820946640296230,13787884745856764367,131072 --disable-features=MimeHandlerViewInCrossProcessFrame --enable-blink-features=ResizeObserver,Worklet,AudioWorklet --lang=en-US --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=12734460951519052211 --renderer-client-id=5 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+3181253 ?        Sl     0:08 /home/shane/.local/share/Steam/ubuntu12_64/steamwebhelper --type=renderer --no-sandbox --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --field-trial-handle=10042820946640296230,13787884745856764367,131072 --disable-features=MimeHandlerViewInCrossProcessFrame --enable-blink-features=ResizeObserver,Worklet,AudioWorklet --lang=en-US --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=9107621849018881576 --renderer-client-id=7 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+3181259 ?        Sl     0:41 /home/shane/.local/share/Steam/ubuntu12_64/steamwebhelper --type=renderer --no-sandbox --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --field-trial-handle=10042820946640296230,13787884745856764367,131072 --disable-features=MimeHandlerViewInCrossProcessFrame --enable-blink-features=ResizeObserver,Worklet,AudioWorklet --lang=en-US --log-file=/home/shane/.local/share/Steam/logs/cef_log.txt --product-version=Valve Steam Client --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=7127652351121053833 --renderer-client-id=9 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+3193337 ?        Sl     0:12 /usr/lib/firefox/firefox -contentproc -childID 31 -isForBrowser -prefsLen 10643 -prefMapSize 223943 -parentBuildID 20200603085854 -appdir /usr/lib/firefox/browser 3165232 true tab
+3193375 ?        Sl     3:07 /usr/lib/firefox/firefox -contentproc -childID 32 -isForBrowser -prefsLen 10643 -prefMapSize 223943 -parentBuildID 20200603085854 -appdir /usr/lib/firefox/browser 3165232 true tab
+3193843 ?        Sl     3:14 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8013 --no-v8-untrusted-code-mitigations --shared-files
+3193866 ?        Sl     1:23 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8014 --no-v8-untrusted-code-mitigations --shared-files
+3196149 ?        Sl     0:11 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8035 --no-v8-untrusted-code-mitigations --shared-files
+3197225 ?        I      0:04 [kworker/0:1-events]
+3197569 ?        I      0:04 [kworker/6:2-events]
+3198895 ?        I      0:06 [kworker/u16:2-events_power_efficient]
+3199029 ?        I      0:03 [kworker/1:2-mm_percpu_wq]
+3199360 ?        I      0:07 [kworker/u16:6-events_unbound]
+3199572 ?        I      0:03 [kworker/4:2-events]
+3199747 ?        I      0:05 [kworker/u16:5-events_unbound]
+3199926 ?        I      0:02 [kworker/3:0-events]
+3200871 ?        I      0:00 [kworker/7:1-rcu_gp]
+3201474 ?        I      0:00 [kworker/7:0-mm_percpu_wq]
+3201822 ?        I      0:00 [kworker/1:0-events]
+3201823 ?        I      0:00 [kworker/5:2-events]
+3202176 ?        Sl     0:10 /usr/lib/firefox/firefox -contentproc -childID 39 -isForBrowser -prefsLen 10679 -prefMapSize 223943 -parentBuildID 20200603085854 -appdir /usr/lib/firefox/browser 3165232 true tab
+3202418 ?        I      0:01 [kworker/u16:4-events_unbound]
+3202498 ?        I      0:00 [kworker/3:1-events]
+3202524 ?        I      0:00 [kworker/4:1-events]
+3202530 ?        I      0:00 [kworker/0:0-rcu_gp]
+3202548 ?        Sl     0:00 /usr/bin/docker-proxy -proto udp -host-ip 0.0.0.0 -host-port 5124 -container-ip 172.17.0.2 -container-port 5124
+3202561 ?        Sl     0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 80 -container-ip 172.17.0.2 -container-port 80
+3202567 ?        Sl     0:02 containerd-shim -namespace moby -workdir /var/lib/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/006b00c6933da91290d5484724009981cc99aff5594d99d644bec1b436421973 -address /var/run/docker/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+3202584 ?        Ss     0:00 /bin/bash apache2ctl -D FOREGROUND
+3202661 ?        S      0:00 /usr/sbin/apache2 -D FOREGROUND
+3202662 ?        S      0:00 /usr/sbin/apache2 -D FOREGROUND
+3202663 ?        S      0:00 /usr/sbin/apache2 -D FOREGROUND
+3202664 ?        S      0:00 /usr/sbin/apache2 -D FOREGROUND
+3202665 ?        S      0:00 /usr/sbin/apache2 -D FOREGROUND
+3202666 ?        S      0:00 /usr/sbin/apache2 -D FOREGROUND
+3202726 ?        Sl     0:00 /usr/lib/firefox/firefox -contentproc -childID 40 -isForBrowser -prefsLen 10679 -prefMapSize 223943 -parentBuildID 20200603085854 -appdir /usr/lib/firefox/browser 3165232 true tab
+3202781 pts/0    Ss     0:00 /bin/bash
+3202802 ?        S      0:00 /usr/sbin/apache2 -D FOREGROUND
+3202809 ?        S      0:00 /usr/sbin/apache2 -D FOREGROUND
+3202921 ?        I      0:00 [kworker/6:1]
+3202940 ?        I<     0:05 [kworker/u17:1-hci0]
+3203157 ?        I      0:01 [kworker/u16:1-events_power_efficient]
+3203485 ?        I      0:00 [kworker/2:0-events]
+3203486 ?        I      0:00 [kworker/2:3-events]
+3203494 ?        I<     0:01 [kworker/u17:2-hci0]
+3203741 ?        S      0:00 sh -c ./startserver 40 1 40 0 1 1 1 0 9 0 3 "0" """" "atbp1994" """" "A Vagabond Server   " 1 "1" "5124" "" "/nwn/home"
+3203742 ?        Sl     0:00 /usr/bin/expect -f ./startserver 40 1 40 0 1 1 1 0 9 0 3 0  atbp1994  A Vagabond Server    1 1 5124  /nwn/home
+3203743 pts/1    Ss+    0:00 screen -S Akadia05 /var/www/nwn/run-server.sh -maxclients 40 -minlevel 1 -maxlevel 40 -pauseandplay 0 -pvp 1 -servervault 1 -elc 1 -ilr 0 -gametype 9 -oneparty 0 -difficulty 3 -autosaveinterval 0 -playerpassword  -dmpassword atbp1994 -adminpassword  -servername A Vagabond Server    -publicserver 1 -reloadwhenempty 1 -port 5124
+3203747 ?        Ss     0:00 SCREEN -S Akadia05 /var/www/nwn/run-server.sh -maxclients 40 -minlevel 1 -maxlevel 40 -pauseandplay 0 -pvp 1 -servervault 1 -elc 1 -ilr 0 -gametype 9 -oneparty 0 -difficulty 3 -autosaveinterval 0 -playerpassword  -dmpassword atbp1994 -adminpassword  -servername A Vagabond Server    -publicserver 1 -reloadwhenempty 1 -port 5124
+3203748 pts/2    Rsl+   8:48 /nwn/data/bin/linux-x86/nwserver-linux -maxclients 40 -minlevel 1 -maxlevel 40 -pauseandplay 0 -pvp 1 -servervault 1 -elc 1 -ilr 0 -gametype 9 -oneparty 0 -difficulty 3 -autosaveinterval 0 -playerpassword -dmpassword atbp1994 -adminpassword -servername A Vagabond Server -publicserver 1 -reloadwhenempty 1 -port 5124
+3203751 pts/2    Z+     0:00 [run-server.sh] <defunct>
+3203752 pts/2    S+     0:00 /bin/bash /var/www/nwn/run-server.sh -maxclients 40 -minlevel 1 -maxlevel 40 -pauseandplay 0 -pvp 1 -servervault 1 -elc 1 -ilr 0 -gametype 9 -oneparty 0 -difficulty 3 -autosaveinterval 0 -playerpassword  -dmpassword atbp1994 -adminpassword  -servername A Vagabond Server    -publicserver 1 -reloadwhenempty 1 -port 5124
+3203754 pts/2    S+     0:00 /bin/bash /var/www/nwn/run-server.sh -maxclients 40 -minlevel 1 -maxlevel 40 -pauseandplay 0 -pvp 1 -servervault 1 -elc 1 -ilr 0 -gametype 9 -oneparty 0 -difficulty 3 -autosaveinterval 0 -playerpassword  -dmpassword atbp1994 -adminpassword  -servername A Vagabond Server    -publicserver 1 -reloadwhenempty 1 -port 5124
+3203755 pts/2    S+     0:00 inotifywait -mq -e moved_to -e create /nwn/run --format %f
+3203756 pts/2    S+     0:00 /bin/bash /var/www/nwn/run-server.sh -maxclients 40 -minlevel 1 -maxlevel 40 -pauseandplay 0 -pvp 1 -servervault 1 -elc 1 -ilr 0 -gametype 9 -oneparty 0 -difficulty 3 -autosaveinterval 0 -playerpassword  -dmpassword atbp1994 -adminpassword  -servername A Vagabond Server    -publicserver 1 -reloadwhenempty 1 -port 5124
+3203757 pts/2    S+     0:00 inotifywait -mq -e close_write /nwn/run --format %f
+3203758 pts/2    S+     0:00 /bin/bash /var/www/nwn/run-server.sh -maxclients 40 -minlevel 1 -maxlevel 40 -pauseandplay 0 -pvp 1 -servervault 1 -elc 1 -ilr 0 -gametype 9 -oneparty 0 -difficulty 3 -autosaveinterval 0 -playerpassword  -dmpassword atbp1994 -adminpassword  -servername A Vagabond Server    -publicserver 1 -reloadwhenempty 1 -port 5124
+3203780 ?        I      0:00 [kworker/u16:0-events_power_efficient]
+3203970 ?        S      0:00 /usr/sbin/apache2 -D FOREGROUND
+3203987 pts/0    S      0:00 su www-data
+3203988 pts/0    S+     0:00 bash
+3204033 ?        Sl     0:00 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8082 --no-v8-untrusted-code-mitigations --shared-files
+3204064 ?        I      0:00 [kworker/4:0-events]
+3204190 ?        S      0:00 /usr/sbin/apache2 -D FOREGROUND
+3204278 ?        SNl    0:00 /usr/lib/tumbler-1/tumblerd
+3204284 ?        S      0:00 file.so [kdeinit5] file local:/run/user/1000/klauncherDoFioc.1.slave-socket local:/run/user/1000/k3bkNFRAy.14.slave-socket
+3204296 pts/3    Ss     0:00 bash
+3204354 pts/3    S      0:00 su - shane
+3204355 pts/3    S      0:00 -bash
+3204405 pts/3    Sl+    0:00 docker exec -it 006b00c6933d /bin/bash
+3204425 pts/3    Ss+    0:00 /bin/bash
+3204962 ?        I<     0:00 [kworker/u17:0-hci0]
+3205115 ?        Sl     0:00 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8083 --no-v8-untrusted-code-mitigations --shared-files
+3205128 ?        Sl     0:00 /usr/lib/chromium/chromium --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=17149969810971708281,12768316327340235337,131072 --lang=en-US --enable-auto-reload --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8084 --no-v8-untrusted-code-mitigations --shared-files
+3205149 pts/2    R+     0:00 ps -ax

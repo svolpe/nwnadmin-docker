@@ -1,0 +1,70 @@
+--- /home/shane/index.php	2020-06-19 14:41:18.624931507 -0400
++++ ../webstuff/nwnwebadmin/index.php	2020-06-19 14:54:21.784928311 -0400
+@@ -28,6 +28,9 @@
+ global $adminusers, $gameset, $useradmin, $startserver, $passchange, $changerunpass, $charadmin, $delcharacters, $updownfile, $uploadfile, $saveagame, $deleteagame, $sendmessage, $bankick, $backup, $imwatch, $imsend;
+ global $users, $invaliduser, $type, $dir, $ext, $crondir, $adminemail, $displaycommands;
+ global $player_log;
++global $item;
++
++$item = $_GET["item"];
+ 
+ //MySQL DataBase settings!!
+         $dbserver="localhost";
+@@ -261,21 +264,21 @@
+ 	} else {
+ 		$pathwrong[16] = 0;
+ 	}
+-	foreach ($pathwrong as $key => $value) {
++	foreach ($pathwrong as $key => $value) { 
+ 		if ($value != "0") {
+ 			$temp = 1;
+ 		}
+ 	}
+-	if ($temp != "") {
++	if (empty($temp) == False) {
+ 		global $serverdir, $nwservername, $lspath, $lnpath, $mkdirpath, $rmdirpath, $awkpath, $greppath, $pspath, $tailpath, $pwdpath, $tarpath, $zippath, $unzippath, $htpasswdpath, $shadowpath, $cronpath;
+ 		if (($serverdir != "") | ($nwservername !="") | ($lspath != "") | ($lnpath != "") | ($mkdirpath != "") | ($rmdirpath !="") | ($awkpath != "") | ($greppath != "") | ($pspath != "") | ($tailpath != "") | ($pwdpath != "") | ($tarpath != "") | ($zippath != "") | ($unzippath != "") | ($htpasswdpath != "") | ($shadowpath != "") | ($cronpath != "")) {
+-			$GLOBALS[item] = "changepath";
++			$GLOBALS["item"] = "changepath";
+ 		} else {
+-			$GLOBALS[item] = "programpath";
++			$GLOBALS["item"] = "programpath";
+ 		}
+ 	} else {
+-		if (($createfiles != 0) & ($GLOBALS[item] != "dohtfiles")) {
+-         	       $GLOBALS[item] = "htfilecreate";
++		if (($createfiles != 0) & ($GLOBALS["item"] != "dohtfiles")) {
++         	       $GLOBALS["item"] = "htfilecreate";
+         	}
+ 	}
+ }
+@@ -437,7 +440,7 @@
+ 		$fp = file("$shadow");
+         	foreach ($fp as $key => $value) {
+                 	$a = substr($value, 0, strlen($value)-strlen (strstr ($value,':')));
+-			if ($temp == "") {
++			if (empty($temp)) {
+ 				$temp = $a;
+ 			} else {
+                        		$temp = $temp.",$a";
+@@ -642,9 +645,9 @@
+ 		if ($invaliduser != "") {
+ 			global $adusers, $gameset, $useradmin, $startserver, $passchange, $changerunpass, $charadmin, $delcharacters, $uploadfile, $updownfile, $saveagame, $deleteagame, $sendmessage, $bankick, $backup;
+ 			if (($adusers !="") | ($gameset !="") | ($useradmin != "") | ($startserver != "") | ($passchange != "") | ($changerunpass != "") | ($charadmin != "") | ($delcharacters !="") | ($updownfile != "") | ($uploadfile !="") | ($saveagame != "") | ($deleteagame != "") | ($sendmessage !="") | ($bankick != "") | ($backup != "")) {
+-				$GLOBALS[item] = "changeadminsettings";
++				$GLOBALS["item"] = "changeadminsettings";
+ 			} else {
+-				$GLOBALS[item]="adminsettings";
++				$GLOBALS["item"]="adminsettings";
+ 			}
+ 		}
+ 	}
+@@ -2475,7 +2478,7 @@
+                                         $temp = "Backup Administration";
+                                 }
+                         }
+-			if (($temp == "") & (!preg_grep ("/^$a$/i", $adminusers))) { $temp = "Basic Access"; }
++			if ((empty($temp)) & (!preg_grep ("/^$a$/i", $adminusers))) { $temp = "Basic Access"; }
+ 			if (preg_grep("/^$authuser$/i", $adminusers) || ($adminusers[0] == "NONE")) {
+ 				echo "<td><a href=\"index.php?item=adminsettings&area=userset\">$temp</a></td>";
+                         } else {

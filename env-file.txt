@@ -1,0 +1,210 @@
+   "env_variables" : [
+      {
+         "key" : "PATH",
+         "value" : "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      },
+      {
+         "key" : "NWN_ARCH",
+         "value" : "linux-x86"
+      },
+      {
+         "key" : "NWN_TAIL_LOGS",
+         "value" : "n"
+      },
+      {
+         "key" : "NWN_EXTRA_ARGS",
+         "value" : "-userdirectory /nwn/run"
+      },
+      {
+         "key" : "MONO_VERSION",
+         "value" : "5.16.0.179"
+      },
+      {
+         "key" : "APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE",
+         "value" : "1"
+      },
+      {
+         "key" : "NWNX_CORE_LOAD_PATH",
+         "value" : "/nwn/nwnx/"
+      },
+      {
+         "key" : "NWN_LD_PRELOAD",
+         "value" : "/nwn/nwnx/NWNX_Core.so"
+      },
+      {
+         "key" : "NWNX_SERVERLOGREDIRECTOR_SKIP",
+         "value" : "n"
+      },
+      {
+         "key" : "NWNX_CORE_LOG_LEVEL",
+         "value" : "7"
+      },
+      {
+         "key" : "NWNX_SERVERLOGREDIRECTOR_LOG_LEVEL",
+         "value" : "6"
+      },
+      {
+         "key" : "NWNX_JVM_CLASSPATH",
+         "value" : "/nwn/nwnx/org.nwnx.nwnx2.jvm.jar"
+      },
+      {
+         "key" : "NWNX_ADMINISTRATION_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_BEHAVIOURTREE_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_CHAT_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_CREATURE_SKIP",
+         "value" : "n"
+      },
+      {
+         "key" : "NWNX_DAMAGE_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_DATA_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_DIALOG_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_EVENTS_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_ITEM_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_JVM_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_LUA_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_METRICS_INFLUXDB_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_MONO_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_OBJECT_SKIP",
+         "value" : "n"
+      },
+      {
+         "key" : "NWNX_PLAYER_SKIP",
+         "value" : "n"
+      },
+      {
+         "key" : "NWNX_PROFILER_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_SPELLCHECKER_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_REDIS_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_RUBY_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_SQL_SKIP",
+         "value" : "n"
+      },
+      {
+         "key" : "NWNX_THREADWATCHDOG_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_TIME_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_TRACKING_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_TWEAKS_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_UTIL_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_WEAPON_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWNX_WEBHOOK_SKIP",
+         "value" : "y"
+      },
+      {
+         "key" : "NWN_MODULE",
+         "value" : "NWNEE_CEP2v1c_Dungeons_n_Dragons_04_02_18-ssv-journals-nwnx"
+      },
+      {
+         "key" : "NWN_DMPASSWORD",
+         "value" : "atbp1994"
+      },
+      {
+         "key" : "NWN_RELOADWHENEMPTY",
+         "value" : "1"
+      },
+      {
+         "key" : "NWN_PAUSEANDPLAY",
+         "value" : "0"
+      },
+      {
+         "key" : "NWN_PUBLICSERVER",
+         "value" : "1"
+      },
+      {
+         "key" : "NWN_PORT",
+         "value" : "5122"
+      },
+      {
+         "key" : "NWN_MODULE_OLD",
+         "value" : "NWNEE_CEP2v1c_Dungeons_n_Dragons_04_02_18b"
+      },
+      {
+         "key" : "NWN_SERVERNAME",
+         "value" : "Vagabond Clan NWNEE"
+      },
+      {
+         "key" : "NWNX_SQL_DATABASE",
+         "value" : "nwn"
+      },
+      {
+         "key" : "NWNX_SQL_PASSWORD",
+         "value" : "nwnuser1"
+      },
+      {
+         "key" : "NWNX_SQL_USERNAME",
+         "value" : "nwn"
+      },
+      {
+         "key" : "NWNX_SQL_HOST",
+         "value" : "10.200.0.198"
+      },
+      {
+         "key" : "NWNX_SQL_TYPE",
+         "value" : "MYSQL"
+      }
+]
