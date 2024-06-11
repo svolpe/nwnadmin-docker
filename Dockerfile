@@ -1,21 +1,23 @@
 FROM nwnxee/unified
 RUN apt-get update \
-	&& apt-get -y install gpg-agent \
-	&& wget -q https://packages.sury.org/php/apt.gpg -O- | apt-key add - \
-	&& echo "deb https://packages.sury.org/php/ stretch main" | tee /etc/apt/sources.list.d/php.list \
-	&& apt-get update \
+    && apt-get -y install gpg gpg-agent \
+    && apt-get install -y software-properties-common python3-launchpadlib \
+    && apt-get install -y apt-transport-https lsb-release ca-certificates \
+    && wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg \
+    && echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" >> /etc/apt/sources.list \
+    && apt-get update \
     && apt-get -y install --no-install-recommends lib32z1 vim apache2 php5.6 php5.6-mysql php5.6-mcrypt screen expect cron zip unzip \
     && apt-get -y install --no-install-recommends python3 python3-flask python3-flask-restful libapache2-mod-wsgi-py3 \
     && mkdir -p /var/lock/apache2 /var/run/apache2 \
     && touch /var/log/cron.log
-
 #CMD ["cron"]
 COPY 000-default.conf /etc/apache2/sites-available/
+COPY ports.conf /etc/apache2/
 COPY php.ini /etc/php/5.6/apache2/
 COPY start-apache.sh /usr/bin/
 RUN chmod 777 /usr/bin/start-apache.sh
-RUN chown www-data.www-data /usr/bin/start-apache.sh
-RUN chown -R www-data.www-data /nwn
+RUN chown www-data:www-data /usr/bin/start-apache.sh
+RUN chown -R www-data:www-data /nwn
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
 NWN_ARCH=linux-x86 \
 NWN_TAIL_LOGS=n \
@@ -65,7 +67,9 @@ NWNX_SQL_DATABASE= \
 NWNX_SQL_PASSWORD= \
 NWNX_SQL_USERNAME= \
 NWNX_SQL_HOST= \
-NWNX_SQL_TYPE=MYSQL 
+NWNX_SQL_TYPE=MYSQL \
+APACHE_PORT=80
+
 #CMD ["/usr/bin/apache2"]
 ENTRYPOINT ["/bin/bash", "/usr/bin/start-apache.sh"]
 #ENTRYPOINT ["/bin/bash", "/usr/sbin/cron", "&&",  "apache2ctl", "-D", "FOREGROUND"]
